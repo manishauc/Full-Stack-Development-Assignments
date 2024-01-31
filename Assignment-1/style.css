@@ -1,0 +1,140 @@
+body{
+	/*margin: 30px;*/
+	text-align: justify;
+	font-family: cursive;
+}
+p{
+	font-size: 18px;
+	text-indent :25px;
+}
+.sidenav {
+  height: 100%;
+  width: 25%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 100px;
+  padding-left: 60px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  /*color: #818181;*/
+  display: block;
+}
+
+.sidenav a:hover {
+  /*color: #f1f1f1;*/
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #E25E3E;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.title{
+	text-align: center;
+}
+html {
+  scroll-behavior: smooth;
+}
+.main-div{
+	margin: 30px;
+	width: 75%;
+	float: right;
+}
+
+.div-first{
+	display: inline-flex;
+}
+
+.div-first p{
+	font-size: 18px;
+}
+.water-img-1{
+	max-width: 50%;
+	margin-right: 50px;
+	max-height: 300px;
+}
+
+.div-second ul li{
+	margin:  20px;
+	font-size: 20px;
+}
+.evapo-div{
+	display: inline-flex;
+}
+.evapo-div p{
+	padding: 20px;
+}
+.evaporation-img{
+	max-width: 50%;
+	margin-right: 50px;
+	max-height: 400px;
+
+}
+.div-third ul li{
+	margin:  20px;
+	font-size: 20px;
+}
+
+.ozone-img{
+	/*max-width: 350px;*/
+	max-width: 35%;
+	margin-right: 50px;
+}
+
+.img-class{
+	text-align: center;
+}
+
+.ecosystem-img{
+	max-width: 50%;
+	margin-right: 50px;
+
+}
+.div-imp ul li{
+	font-size: 18px;
+}
+h3{
+	background-color: #F7B787;
+	padding: 10px;
+}
+.div-imp h3{
+	background-color: #F7B787;
+	padding: 10px;
+}
+.ozone-div{
+	display: inline-flex;
+}
+.ozone-div img{
+	max-width: 35%;
+	margin-right: 20px;
+	max-height: 400px;
+}
+.ozone-div p{
+	margin: 20px 20px 0px 0px;
+}
